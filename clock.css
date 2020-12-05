@@ -1,0 +1,70 @@
+#clock {
+    margin-top: 100px;
+}
+
+.clockFace {
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    background-image: linear-gradient(to right bottom, rgb(35, 188, 235), rgb(35, 211, 35));
+}
+
+.hand {
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%);
+    transform-origin: bottom;
+    border: 1px solid black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.seconds {
+    background-color: green;
+    height: 190px;
+    width: 7px;
+}
+
+.hours {
+    background-color: yellow;
+    height: 150px;
+    width: 10px;
+}
+
+.minutes {
+    background-color: red;
+    height: 180px;
+    width: 9px;
+}
+
+#twelve {
+    left: 50%;
+    position: absolute;
+}
+
+#six {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+}
+
+#three {
+    position: absolute;
+    top: 50%;
+    left: 95%;
+}
+
+#nine {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+body {
+    background-image: linear-gradient(to right bottom, pink, violet);
+}
